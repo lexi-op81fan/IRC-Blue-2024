@@ -25,7 +25,7 @@ public class RobotContainer {
   Drivetrain drivetrain = new Drivetrain();
   Joystick leftStick = new Joystick(0);
   Joystick rightStick = new Joystick(1);
-  Drive drive = new Drive(drivetrain, leftStick, rightStick);
+  private Drive drive = new Drive(drivetrain, leftStick, rightStick);
   
   // The robot's subsystems and commands are defined here...
   private final ExampleSubsystem m_exampleSubsystem = new ExampleSubsystem();
